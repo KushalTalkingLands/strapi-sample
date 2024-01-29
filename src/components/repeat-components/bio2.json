@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_repeat_components_bio2s",
+  "info": {
+    "displayName": "bio",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "designation": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "linkedIn": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    }
+  }
+}

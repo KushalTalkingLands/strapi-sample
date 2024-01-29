@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "testconfigs",
+  "info": {
+    "singularName": "testconfig",
+    "pluralName": "testconfigs",
+    "displayName": "testconfig",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "consumer-web-config.testimonials"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_consumer_web_config_teams",
+  "info": {
+    "displayName": "Teams",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bio1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "repeat-components.bio2"
+    },
+    "bio2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "repeat-components.bio2"
+    },
+    "bio3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "repeat-components.bio2"
+    },
+    "bio4": {
+      "type": "component",
+      "repeatable": false,
+      "component": "repeat-components.bio2"
+    },
+    "bio5": {
+      "type": "component",
+      "repeatable": false,
+      "component": "repeat-components.bio2"
+    }
+  }
+}

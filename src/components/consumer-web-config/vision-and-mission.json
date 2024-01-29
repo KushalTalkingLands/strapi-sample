@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_consumer_web_config_vision_and_missions",
+  "info": {
+    "displayName": "VisionAndMission"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

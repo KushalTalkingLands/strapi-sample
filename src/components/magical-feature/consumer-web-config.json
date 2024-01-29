@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_magical_feature_consumer_web_configs",
+  "info": {
+    "displayName": "ConsumerWebConfig",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lens": {
+      "displayName": "Lens",
+      "type": "component",
+      "repeatable": false,
+      "component": "magical-feature.lens"
+    },
+    "deepinsights": {
+      "displayName": "deepinsights",
+      "type": "component",
+      "repeatable": false,
+      "component": "magical-feature.deepinsights"
+    },
+    "tales": {
+      "displayName": "tales",
+      "type": "component",
+      "repeatable": false,
+      "component": "magical-feature.tales"
+    },
+    "onlineBookings": {
+      "displayName": "onlineBookings",
+      "type": "component",
+      "repeatable": false,
+      "component": "magical-feature.online-bookings"
+    }
+  }
+}

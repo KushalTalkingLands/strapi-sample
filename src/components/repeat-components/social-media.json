@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_repeat_components_social_medias",
+  "info": {
+    "displayName": "SocialMedia"
+  },
+  "options": {},
+  "attributes": {
+    "linkedIn": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    }
+  }
+}

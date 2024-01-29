@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_consumer_web_config_new_and_hot_properties",
+  "info": {
+    "displayName": "NewAndHotProperties"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "integer"
+    },
+    "propertyName": {
+      "type": "string"
+    },
+    "gid": {
+      "type": "string"
+    },
+    "projid": {
+      "type": "string"
+    },
+    "projectCategory": {
+      "type": "string"
+    },
+    "projectName": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "locationanddetails": {
+      "type": "string"
+    },
+    "staticMap": {
+      "type": "string"
+    },
+    "projectSlug": {
+      "type": "string"
+    },
+    "orgSlug": {
+      "type": "string"
+    }
+  }
+}

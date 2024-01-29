@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_consumer_web_config_how_it_works",
+  "info": {
+    "displayName": "HowItWorks"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

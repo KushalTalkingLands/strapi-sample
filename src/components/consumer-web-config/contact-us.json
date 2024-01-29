@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_consumer_web_config_contactuses",
+  "info": {
+    "displayName": "ContactUs"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "staticmap": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    }
+  }
+}

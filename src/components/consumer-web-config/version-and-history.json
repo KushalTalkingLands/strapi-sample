@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_consumer_web_config_version_and_histories",
+  "info": {
+    "displayName": "VersionAndHistory"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "mediaImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
